@@ -1,3 +1,17 @@
+@import "config";
 body {
-  background: red;
+  background: $background-color;
+}
+.main {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+
+  &__wrap {
+    width: 460px;
+    height: 500px;
+    background: blue;
+  }
 }

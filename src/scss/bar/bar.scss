@@ -1,0 +1,42 @@
+$background-color: hsl(10, 79%, 65%);
+$color-p: hsl(27, 66%, 92%);
+.wrap {
+  background: $background-color;
+  color: white;
+  border-radius: 15px;
+  padding: 22px;
+  &__content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    &__text {
+      & p {
+        font-size: 14px;
+        color: $color-p;
+        margin-bottom: 5px;
+      }
+    }
+
+    &__logo {
+      justify-self: end;
+      align-self: center;
+
+      &__white {
+        position: absolute;
+        width: 45px;
+        height: 45px;
+        border: 2px solid white;
+        border-radius: 40px;
+        margin-right: 20px;
+      }
+
+      &__black {
+        width: 45px;
+        height: 45px;
+        background: black;
+        border-radius: 40px;
+        margin-left: 25px;
+      }
+    }
+  }
+}
