@@ -1,0 +1,37 @@
+.component {
+  background: white;
+  height: 370px;
+  margin-top: 20px;
+  border-radius: 15px;
+  padding: 22px;
+
+  hr {
+    border: 1px solid hsl(27, 66%, 92%);
+    color: hsl(10, 93%, 83%);
+  }
+
+  &__bottom {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 20px;
+
+    p {
+      color: hsl(28, 10%, 53%);
+    }
+    &__text1 {
+      align-self: end;
+      h4 {
+        font-size: 32px;
+      }
+    }
+
+    &__text2 {
+      justify-self: end;
+      align-self: end;
+      padding-bottom: 6px;
+      h4 {
+        text-align: end;
+      }
+    }
+  }
+}

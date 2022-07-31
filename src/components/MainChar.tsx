@@ -1,21 +1,24 @@
 import React from "react";
 
+import "../scss/mainchar/mainchar.scss";
+import Chart from "./Chart";
+
 const MainChar: React.FC = () => {
   return (
     <div className="component">
       <div className="component__text">
-        <h1>Spending - Last 7 days</h1>
+        <h2>Spending - Last 7 days</h2>
       </div>
-      <p>chart</p>
+      <Chart />
       <hr />
       <div className="component__bottom">
         <div className="component__bottom__text1">
           <p>Total this month</p>
-          <h1>$478.33</h1>
+          <h4>$478.33</h4>
         </div>
         <div className="component__bottom__text2">
-          <h6>+2.4%</h6>
-          <p>From last mont</p>
+          <h4>+2.4%</h4>
+          <p>from last month</p>
         </div>
       </div>
     </div>

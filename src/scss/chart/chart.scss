@@ -1,0 +1,17 @@
+.chartarea {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  justify-content: center;
+  align-items: end;
+  text-align: center;
+  margin-top: 20px;
+  min-height: 190px;
+  & p {
+    color: hsl(28, 10%, 53%);
+    margin-bottom: 6px;
+  }
+  &__hover div {
+    display: grid;
+    justify-self: center;
+  }
+}

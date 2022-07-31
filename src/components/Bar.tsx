@@ -8,7 +8,7 @@ const bar: React.FC = () => {
       <div className="wrap__content">
         <div className="wrap__content__text">
           <p>My Balance</p>
-          <h1>$921.48</h1>
+          <h2>$921.48</h2>
         </div>
         <div className="wrap__content__logo">
           <div className="wrap__content__logo__white"></div>
