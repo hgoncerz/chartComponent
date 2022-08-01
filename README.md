@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# URL to website: https://candid-entremet-73849b.netlify.app/
+
+I recreated the website template from the frontend mentor
+
+Link to exercise: https://www.frontendmentor.io/solutions/responding-layout-using-flexn-grid-and-sass-tLfIPap78g
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
