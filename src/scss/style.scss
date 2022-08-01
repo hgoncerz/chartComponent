@@ -10,7 +10,13 @@ body {
   align-items: center;
 
   &__wrap {
-    width: 460px;
+    width: 450px;
     height: 500px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .main__wrap {
+    width: 340px;
   }
 }

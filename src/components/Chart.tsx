@@ -9,7 +9,7 @@ const Chart: React.FC = () => {
     <div className="chartarea">
       {data.map((record) => {
         return (
-          <div className="chartarea__hover">
+          <div className="chartarea__hover" key={record.day}>
             <ChartColumn day={record.day} amount={record.amount * 2.4} />
             <p>{record.day}</p>
           </div>
